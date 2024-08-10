@@ -1,0 +1,38 @@
+[tool.poetry]
+# package metadata
+name = "pyale"
+version = "0.1.0"
+description = "Calculating and visualizing accumulated local effects in machine learning models and outputting ALE statistics!"
+authors = ["Yanling TAO <yanling.tao@skema.edu>", "Minsen XU <minsen.xu@skema.edu>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "src/pyale" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"  # Use one Python version constraint
+numpy = "*"
+pandas = "*"
+scikit-learn = ">=1.0.0"
+matplotlib = "*"
+shap = ">=0.30.0"
+xarray = ">=0.16.0"
+tqdm = "*"
+ipywidgets = "*"
+statsmodels = "*"
+seaborn = ">=0.11.0"
+scikit-explain = "*"
+pygam = "*"
+tables = "^3.8.0"
+gensim = "^4.3.0"
+blosc2 = "*"
+cython = "*"
+FuzzyTM = "*"
+
+[tool.poetry.dev-dependencies]
+# Add any development dependencies here
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

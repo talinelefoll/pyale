@@ -11,7 +11,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.11"  # Use one Python version constraint
+python = "^3.10"  # Use one Python version constraint
 numpy = "*"
 pandas = "*"
 scikit-learn = ">=1.0.0"

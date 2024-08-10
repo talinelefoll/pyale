@@ -32,7 +32,6 @@ FuzzyTM = "*"
 xgboost = "*"
 
 [tool.poetry.dev-dependencies]
-xgboost
 
 
 [build-system]

@@ -7,7 +7,7 @@ authors = ["Yanling TAO <yanling.tao@skema.edu>", "Minsen XU <minsen.xu@skema.ed
 license = "MIT"
 readme = "README.md"
 packages = [
-    { include = "src/pyale" },
+    { include = "pyale" },
 ]
 
 [tool.poetry.dependencies]

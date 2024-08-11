@@ -2,6 +2,8 @@
 
 # Import specific functions or classes to make them accessible directly from the package
 from .ale_1d_calcu import calculate_ale_1d
+from .ale_1d_viz import ale_1d_plot
+from .ale_stats import ale_stats
 
 # Optionally define the version of the package
 from importlib.metadata import version, PackageNotFoundError
